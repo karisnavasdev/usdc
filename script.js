@@ -1,4 +1,4 @@
-const CA = "0xf84744be738fd2c4dff1e9fd3d37718d1c4a295a";
+const CA = "0xcomingsoon";
 const toast = document.getElementById("toast");
 const flipBtn = document.getElementById("flipBtn");
 let toastTimer;
@@ -6,9 +6,9 @@ let toastTimer;
 async function copyCa() {
   try {
     await navigator.clipboard.writeText(CA);
-    showToast("CA copied · 0xf84744be738fd2c4dff1e9fd3d37718d1c4a295a");
+    showToast("CA copied · 0xcomingsoon");
   } catch {
-    showToast("Copy failed — CA is 0xf84744be738fd2c4dff1e9fd3d37718d1c4a295a");
+    showToast("Copy failed — CA is 0xcomingsoon");
   }
 }
 
